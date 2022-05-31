@@ -36,16 +36,6 @@ function SetSeatBeltActive(e)
     end
 end
 
-function SetSeatBeltActive(e)
-    if (e) then
-        SendNUIMessage({
-            type = 'cinturon:toggle',
-            toggle = e.active,
-            checkIsVeh = e.checkIsVeh,
-        })
-    end
-end
-
 function carHudLoop()
     CreateThread(function()
         while (true) do
