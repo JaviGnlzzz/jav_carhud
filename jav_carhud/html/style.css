@@ -1,0 +1,146 @@
+@font-face {
+    font-family: coche1;
+    src: url(fonts/1.ttf);
+}
+
+@font-face {
+    font-family: coche2;
+    src: url(fonts/2.ttf);
+}
+
+*{
+    font-family: coche1;
+}
+
+.contenedoropciones{
+    position: absolute;
+    top: 49.5vw;
+    left: 87vw;
+    background-color: #301b39bd;
+    width: 8vw;
+    padding: .5vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    height: 1vw;
+    border-radius: .35vw;
+    border: .15vw solid #1c1644;
+}
+
+#faro{
+    position: absolute;
+    left: 1.3vw;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.15vw;
+    color: #928b94;
+    transition: .2s;
+}
+
+#bloqueo{
+    position: absolute;
+    left: 3.2vw;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.15vw;
+    color: #928b94;
+    transition: .2s;
+}
+
+#daño{
+    position: absolute;
+    left: 5.2vw;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.2vw;
+    color: #928b94;
+    transition: .2s;
+}
+
+#cinturon{    
+    position: absolute;
+    left: 7.5vw;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1.2vw;
+    filter: invert(1);
+}
+
+.kmnumero{
+    position: absolute;
+    top: 48.9vw;
+    left: 79.5vw;
+    font-size: 2.7vw;
+    color: white;
+    text-shadow: 0 0 10px rgba(253, 253, 253, 0.075);
+}
+
+.kmtexto{
+    position: absolute;
+    top: 50.9vw;
+    left: 84.6vw;
+    color: white;
+    font-family: coche2;
+    font-size: .6vw;
+    color: white;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.466);
+}
+
+.marchas{
+    position: absolute;
+    width: 1.2vw;
+    padding: .1vw;
+    top: 49vw;
+    left: 84.6vw;
+    text-align: center;
+    background-color: #301b39bd;
+    border-radius: .25vw;
+    border: .15vw solid #1c1644;
+    color: white;
+    font-size: 1vw;
+}
+
+.porcentaje{
+    position: absolute;
+    left: 94.5vw;
+    top: 47vw;
+    font-family: 'Montserrat';
+    font-size: .75vw;
+    color: white;
+}
+
+[class="fa-solid fa-gas-pump"]{
+    position: absolute;
+    top: 48vw;
+    left: 88vw;
+    color: white;
+    font-size: .9vw;
+}
+
+.fuel-container {
+    position: absolute;
+    top: 48.2vw;
+    left: 89.6vw;
+    background-color: #3d313d;
+    width: 7.5vw;
+    height: .6vw;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 2vw;
+}
+
+.fuel-progress {
+    background-color: #2d49c9;
+    width: 50%;
+    height: 100%;
+}
+
+::-webkit-scrollbar {
+    width: 1px;
+  }
+  ::-webkit-scrollbar-track {
+    border-radius: 10px;
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+}
