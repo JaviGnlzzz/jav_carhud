@@ -1,7 +1,7 @@
 # jav_carhud
 
 
-Buenas! Este es un carhud (velocimetro) creado totalmente por mi con un poco de ayuda de Medinaa#7364 , tienes bastantes funciones ademas de tener el sistema de llaves de los coches con antispam de tecla... ,la tecla de cinturon y cerrar las puertas del coche se puede cambiar en ajustes o en el client.lua como preferais.
+Buenas! Este es un carhud (velocimetro) creado totalmente por mi con un poco de ayuda de Medinaa#7364 y tambien en el lua de Jaareet#0097, tienes bastantes funciones ademas de tener el sistema de llaves de los coches con antispam de tecla... ,la tecla de cinturon y cerrar las puertas del coche se puede cambiar en ajustes o en el client.lua como preferais.
 
 Espero que lo disfruteis y ahi a darle una estrella!
 
