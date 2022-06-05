@@ -4,7 +4,7 @@ game 'gta5'
 
 author "TusMuertos.#4903"
 
-contributor "Medinaa#7364"
+contributor "Medinaa#7364 and TusMuertos.#4903"
 
 ui_page 'html/index.html'
 
