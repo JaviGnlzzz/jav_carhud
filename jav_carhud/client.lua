@@ -38,6 +38,7 @@ end
 
 function carHudLoop()
     CreateThread(function()
+       local sleepThread = 1000
         while (true) do
             local playerPed = GetPlayerPed(-1)
             local vehicle = GetVehiclePedIsIn(playerPed)
@@ -46,7 +47,7 @@ function carHudLoop()
             local gearLevel  = 0
             local healthCar  = 0
             local speedLevel = 0
-            local sleepThread = 1000
+
             local damage = GetVehicleEngineHealth(vehicle)
 
             if (IsPedInAnyVehicle) then
